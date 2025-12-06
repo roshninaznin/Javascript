@@ -23,5 +23,21 @@ console.log(typeof student["cgpa"]);
 console.log(typeof student["isPassed"]);
 
 
+const student2 = {
+    name : "naznin",
+    roll : 30,
+    cgpa: 3.61,
+};
+   console.log (student2["cgpa"]);
+
+const human = {
+    name: "roshni",
+    age: 23,
+    class: 14,
+};
+ human.age = human.age + 5;
+   console.log (human["name"]);
+   console.log(human.class);
+   console.log(human.age);
 
   
